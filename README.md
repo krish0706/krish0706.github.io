@@ -1,4 +1,4 @@
-# Krish Shah
+
 
 ## EDUCATION
 ### Dwarkadas J Sanghvi College of Engineering, Mumbai, India                                          
@@ -24,13 +24,13 @@ Relevant Courses: Embedded Systems and Real-Time Operating Systems, Microprocess
 - ### Battery Management System for Formula Student Race car, at DJS Racing Electric
 
 ## TECHNICAL SKILLS
-●	Programming languages: C | C++ | Python | Java
+●	Programming languages: C \| C++ \| Python \| Java
 
-●	Technical Software/ Frameworks: ESP-IDF | STM32 | FreeRTOS | LTSpice | Altium | Proteus | KiCAD | OrCAD | STM32Cube | Git | AVR | PlatformIO
+●	Technical Software/ Frameworks: ESP-IDF \| STM32 \| FreeRTOS \| LTSpice \| Altium \| Proteus \| KiCAD \| OrCAD \| STM32Cube \| Git \| AVR \| PlatformIO
 
-●	Concepts: OTA Updates | Encryption | Wireless Mesh | Battery Management System | Battery Design | Data Structures and Algorithms 
+●	Concepts: OTA Updates \| Encryption \| Wireless Mesh \| Battery Management System \| Battery Design \| Data Structures and Algorithms 
 
-●	Other: CAN | UART | I2C | SPI | Analog Design | Project Management | Soldering | Oscilloscope | Multimeter | Function Generator | Microsoft Office 
+●	Other: CAN \| UART \| I2C \| SPI \| Analog Design \| Project Management \| Soldering \| Oscilloscope \| Multimeter \| Function Generator \| Microsoft Office 
 ## EXTRACURRICULAR ACTIVITIES
 ●	IEEE Brainwaves’ Head of Marketing, responsible for organizing workshops and seminars with an emphasis on making the domain of electronics more approachable
 
