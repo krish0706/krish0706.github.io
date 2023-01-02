@@ -23,6 +23,10 @@ Relevant Courses: Embedded Systems and Real-Time Operating Systems, Microprocess
 
 - ### Battery Management System for Formula Student Race car, at DJS Racing Electric
 
+- ### Smart Home Automation using MQTT on Rpi
+
+- ### IBM-Phemesoft Internship Project : Job Portal Website
+
 ## TECHNICAL SKILLS
 ●	Programming languages: C \| C++ \| Python \| Java
 
