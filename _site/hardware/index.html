@@ -31,7 +31,7 @@
 
 
   <body>
-
+    
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -74,48 +74,43 @@
           
         
       
-        
-          
-            <a class="sidebar-nav-item" href="/test/">Hello World</a>
-          
-        
-      
 
     </nav>
   </div>
 </div>
 
 
-    <div class="content container">
+    <div class="content container" align="justify">
       <p><strong>Table of Contents</strong></p>
 <ul>
   <li><a href="#pcb-design">PCB Design</a>
     <ul>
       <li><a href="#instrument-driod">Instrument Driod</a></li>
       <li><a href="#golden-arduino">Golden Arduino</a></li>
-      <li><a href="#astable-multivibrator">Astable Multivibrator</a></li>
       <li><a href="#good-vs-bad-layout-board">Good Vs. Bad Layout Board</a></li>
+      <li><a href="#astable-multivibrator">Astable Multivibrator</a></li>
     </ul>
   </li>
-  <li><a href="#board-bring-up">Board Bring Up</a></li>
+  <li><a href="#8051-board-bring-up">8051 Board Bring Up</a></li>
 </ul>
 
 <h2 id="pcb-design">PCB Design</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Click Here</a>.</p>
+<p>These boards were designed, manufactured and tested during the Practical PCB Design and Manufacture (ECEN 5730) course at the University of Colorado at Boulder.
+This course solidified my ability to translate ideas into functional circuit boards. I built prototypes using solderless breadboards before moving to multilayer PCBs, while gaining a comprehensive understanding of industry best practices. This includes risk management, testing methodologies, signal/power integrity, and manufacturability, all while meeting cost and schedule targets.</p>
 <h3 id="instrument-driod">Instrument Driod</h3>
 <p><img src="/public/img/instrument-driod.png" alt="placeholder" />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Click Here</a>.</p>
+ This custom-built “Instrument Droid” is a 4-layer PCB housing a microcontroller and a dedicated data acquisition system. It can be used to characterize various voltage sources, including power supplies and digital output pins. Its core functionality lies in measuring the Thevenin equivalent resistance of these sources as the current load fluctuates. By plotting the resistance against the changing current, the instrument droid provides a comprehensive characterization of multiple voltage sources. For more information <a href="">Click Here, coming soon…</a>.</p>
 <h3 id="golden-arduino">Golden Arduino</h3>
 <p><img src="/public/img/golden-arduino.png" alt="placeholder" />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information [Click Here](https://developer.mozilla.org/en-US/docs/Web/</p>
-<h3 id="astable-multivibrator">Astable Multivibrator</h3>
-<p><img src="/public/img/555-timer-board.png" alt="placeholder" />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Click Here</a>.</p>
+This custom-built “Golden Arduino,” is a minimalist Arduino board designed to achieve core functionalities. It prioritizes essential features for uploading code via USB, running with the Arduino IDE, and ensuring full compatibility with most Arduino Uno R3 shields. While maintaining commercial Arduino connectivity specifications, the Golden Arduino boasts additional functionalities for enhanced noise control, simplified assembly, streamlined testing, and efficient startup procedures. For more information <a href="https://drive.google.com/file/d/1v7sLqAxz2TlS9UWMopKReOcbZpwJAusF/view?usp=sharing">Click Here</a>.</p>
 <h3 id="good-vs-bad-layout-board">Good Vs. Bad Layout Board</h3>
 <p><img src="/public/img/good-v-bad-layout.png" alt="placeholder" />
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Click Here</a>.</p>
+This PCB utilizes a 555 timer configured as an astable multivibrator to generate a 500Hz square wave with a 50% duty cycle. The output from the 555 timer triggers two SN74AHC14 hex inverters.  One inverter circuit includes a decoupling capacitor and a continuous ground return plane, while the other lacks these elements. By comparing the noise performance of these two layouts, we can observe the impact of proper design practices on PCB noise reduction. For more information <a href="https://drive.google.com/file/d/1vAGqYxZ14JId2595QzpmzcQCqJsF_GSF/view?usp=sharing">Click Here</a>.</p>
+<h3 id="astable-multivibrator">Astable Multivibrator</h3>
+<p><img src="/public/img/555-timer-board.png" alt="placeholder" />
+I designed and fabricated a 500Hz astable vibrator circuit using an IC555 timer on a PCB to gain proficiency in the entire PCB design flow within Altium Designer. This project encompassed the POR (Plan of Record), prototyping, schematic capture, layout, assembly, and analysis, adhering to best practices in design and measurement. For more information <a href="https://drive.google.com/file/d/1vAIDYN3dhmb6S0dchkq_F6QjW78ltwsj/view?usp=sharing">Click Here</a>.</p>
 
-<h2 id="board-bring-up">Board Bring Up</h2>
+<h2 id="8051-board-bring-up">8051 Board Bring Up</h2>
 <p><img src="/public/img/8051-board-bringup.jpg" alt="placeholder" />
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. For more information <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">Click Here</a>.</p>
 

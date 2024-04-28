@@ -1,17 +1,20 @@
 ---
 layout: page
 title: Projects
-# my_baseurl: {{/}}
 ---
 
-## Firmware
-![placeholder](/public/img/display-hello-world.jpg)
+###### <em>Click on the image to go desired section</em>
 
-[CLICK ME](/firmware)
+
+## Firmware
+
+[<img src="/public/img/display-hello-world.jpg">](/firmware)
+
 
 ## Hardware
-![placeholder](/public/img/8051-board.jpg)
+[<img src="/public/img/8051-board.jpg">](/hardware)
 
-[CLICK ME](/hardware)
+
+
 
 
