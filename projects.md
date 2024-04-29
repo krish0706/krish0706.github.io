@@ -3,7 +3,7 @@ layout: page
 title: Projects
 ---
 
-###### <em>Click on the image to go desired section</em>
+###### <em>Click on the image to go to the desired section</em>
 
 
 ## Firmware
